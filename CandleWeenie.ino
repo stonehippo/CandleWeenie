@@ -1,4 +1,4 @@
-#include <SoftwareSerial>
+#include <SoftwareSerial.h>
 
 SoftwareSerial tinySerial(3,4);
 
@@ -9,7 +9,7 @@ const int photoresistor_threshold = 512;
 boolean led_state = false;
 
 void setup() {
-    pinmode(photoresistor, INPUT);
+    pinMode(photoresistor, INPUT);
     pinMode(leds, OUTPUT);
     tinySerial.begin(9600);
 }
