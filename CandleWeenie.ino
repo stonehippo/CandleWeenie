@@ -2,6 +2,9 @@
  CandleWeenie is a little LED pumpkin light. It's got a photoresistor so that it can figure out
  when it's dark enough to turn on its cluster of candle flicker LEDs.
  
+ This is, of course, overkill. The circuit could be built without a microcontroller at all.
+ But what's the point of that? ;-)
+ 
  CandleWeenie is based on a ATTiny85, though this could should work fine with just about any
  microcotroller that works with the Arduino IDE. For example, porting over to an Arduino Uno
  doesn't really require any changes at all (though you'd probably want to switch over to hardware
